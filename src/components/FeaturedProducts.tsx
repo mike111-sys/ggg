@@ -9,7 +9,7 @@ type ProductImage = {
 
 const FeaturedProducts: React.FC = () => {
   const [images, setImages] = useState<ProductImage[]>([]);
-  const backendURL = 'https://uzosolutions.com';
+  const backendURL = 'https://uzosolutions.com/backback';
 
   useEffect(() => {
     const fetchImages = async () => {
