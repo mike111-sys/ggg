@@ -15,7 +15,7 @@ const PromotionalItems: React.FC = () => {
     name: '',
     image: null as File | null
   });
-  const backendURL = 'https://testing-backend-9uqt.onrender.com';
+  const backendURL = 'https://uzosolutions.com';
 
   useEffect(() => {
     fetchProducts();

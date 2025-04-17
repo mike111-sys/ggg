@@ -9,7 +9,7 @@ type ProductImage = {
 
 const FeaturedProducts: React.FC = () => {
   const [images, setImages] = useState<ProductImage[]>([]);
-  const backendURL = 'https://testing-backend-9uqt.onrender.com';
+  const backendURL = 'https://uzosolutions.com';
 
   useEffect(() => {
     const fetchImages = async () => {
