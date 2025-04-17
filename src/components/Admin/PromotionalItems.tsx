@@ -228,6 +228,7 @@ const PromotionalItems: React.FC = () => {
                 src={product.imageUrl}
                 alt={product.name}
                 className="h-48 w-full object-cover"
+                loading="lazy"
               />
               <div className="p-4 flex-1 flex flex-col justify-between">
                 <div>
